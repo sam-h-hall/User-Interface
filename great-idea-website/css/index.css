@@ -66,38 +66,49 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	margin: 40px 80px 200px 80px;
+	margin: 1px 430px 0px 431px;
+	padding: 0px;
+	height: auto;
 }
 
 nav a {
-	color: lightgray;
+	color: gray;
 	text-decoration: none;
-	margin: 200px;
-	margin-left: 0px;
-	width: 10px;
-	border: 2px solid black;
+	margin-right: 53px;
+	width: 5px;
 }
-  
-header{
-	font-size: 80px;
-	border: 1px solid black;
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	margin: -100px 760px 0px; /*move up without negative!*/
+}
+
+header {
+	font-size: 65px;
 	width: 40%;
-	margin: 180px 0px 130px 200px; 
+	margin: 100px 0px 50px 100px; 
 	text-align: center;
 }
-  
+
+.top-img{
+	margin: -350px 20px 125px 580px; /*figure out how to move this without negative*/
+	size: 200px;
+}
+
 .start-button {
 	border: 2px solid black;
 	text-decoration: none;
 	color: black;
-	width: 50%;
 	padding: 3px 50px;
+	margin-left: 220px;
 }
 
-.logo {
-	border: 2px solid black;
-	margin-left: 1560px;
-	margin-top: -80px;
+.start-button:hover {
+	color: white;
+	background-color: black;
 }
 
 footer {
@@ -107,13 +118,73 @@ footer {
 
 .copyright {
 	text-align: center;
+	margin-top: 60px;
 }
 
+.nav-bar {
+	display: inline-block;
+	width: 1008px;
+	padding-top: 20px;
+}
 
+.nav-bar nav{
+	margin-left: 80px;
+	padding: 4px 2px 4px 2px;
+	width: 64%;
+}
 
+.middle-img {
+	margin-left: 80px;
+	margin-bottom: 40px;
+}
 
+.right, .left, .center {
+	display: inline-block;
+	width: 27.8%;
+	margin-bottom: 40px;
+}
 
-/*this is just for editing purposes*/
-h3 {
-	border: 2px solid black;
+.left, .center {
+	margin-right: 4px;
+}
+
+.left {
+	margin-left: 80px;
+}
+
+.top-left, .top-right{
+	width: 43%;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.top-left {
+	margin-left: 80px;
+	margin-bottom: 40px;
+}
+
+h3:hover {
+	color: royalblue;
+}
+
+footer {
+	margin-left: 80px;
+	margin-top: 40px;
+	margin-right: 80px;
+	height: 200px;
+	line-height: 20px;
+}
+
+footer div p {
+	width: 140px;
+	margin-bottom: 10px;
+}
+
+hr {
+	width: 83.5%;
+	margin-left: 80px;
+}
+
+.top-right:hover, .top-left:hover, .right:hover, .left:hover, .center:hover {
+	color: royalblue;
 }
